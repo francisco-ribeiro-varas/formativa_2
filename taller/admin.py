@@ -1,3 +1,5 @@
 from django.contrib import admin
+from taller.models import materiales
 
-# Register your models here.
+admin.site.register(materiales)
+
